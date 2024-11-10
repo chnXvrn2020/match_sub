@@ -1,4 +1,6 @@
 import os
+import time
+
 
 def file_list(path, ext):
     files = []
@@ -72,3 +74,5 @@ if __name__ == '__main__':
         os.rename(sub_files[i], new_path)
 
     print('작업이 완료되었습니다. 즐거운 시간되십시오~!')
+
+    time.sleep(5)
